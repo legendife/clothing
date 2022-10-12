@@ -1,0 +1,154 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    block-size: auto;
+}
+#body{
+    height: 110px;
+    width: auto;
+    margin: auto;
+    margin-bottom: 50px;
+
+
+}
+img{
+    display: inline-block;
+    margin-top: 10px;
+}
+#body .title{
+    position: fixed;
+    top: 1px;
+    height: 30px;
+    width: 100%;
+    padding: 30px 30px;
+    background-color: rgb(240, 188, 188);
+    margin: auto;
+
+}
+.title h2{
+    color: rgb(191, 8, 191);
+    display: inline;
+    font-size: 30px;
+    margin: 10px auto 20px 110px ;
+}
+#body .title .link{
+    display: inline;
+    position: relative;
+    bottom: 5px;
+    left: 80px;
+    margin: 25px;     
+}
+.link a{
+    color: blue;
+    text-decoration: none;
+    margin: 25px;
+    border-bottom: 2px solid red;
+    transition-duration: 1s;
+
+}
+.link a:hover{
+    border-bottom: none;
+    transition-property: all;
+    transition-duration: 1s;
+    font-size: 30px;
+}
+#body .title .search{
+    display: inline-block;
+    position: relative;
+    border: 1px antiquewhite;
+    bottom: 5px;
+    left: 140px;
+    height: 30px;    
+    
+}
+input{
+    background-color: rgb(240, 188, 188);
+    border: 2px antiquewhite;
+    height: 30px;
+    transition-duration: 0.3s;
+    outline: none;
+    padding: 0 20px;
+}
+input:hover{
+    background-color:antiquewhite;
+    border: 1px antiquewhite;
+    height: 40px;
+    transition-duration: 0.3s;
+}
+button{
+    display: inline-block;
+    position: relative;
+    left: 250px;
+    bottom: 5px;
+}
+
+/*  Second Part */
+
+#body .first-box{
+    margin-top: 90px;
+    height: 570px;
+    width: 500px;
+    background-color: rgb(14, 14, 118);
+    background-image: url( "img1.jpg" );
+    background-size: cover;
+}
+#body .second-box{
+    position: absolute;
+    top: 139px;
+    left: 220px;
+    height: 520px;
+    width: 450px;
+    background-color: rgb(100, 100, 173);
+    background-image: url( "img3.jpg" );
+    background-size: cover;
+    transition-duration: 0.8s;
+    border: 2px solid lightblue;
+    border-radius: 10px;
+}
+#body .second-box:hover{
+    background-image: url( "1.jpg" );
+    background-size: cover;
+    transition-duration: 0.4s;
+}
+
+#body .text{
+    line-height: 28px;
+    position: absolute;
+    left: 730px;
+    top: 300px;
+}
+#body .text1 p{
+    font-size: 25px;
+    line-height: 30px;
+    color: blue;
+    font-weight: 900px;
+    
+}
+#body .text1 h2{
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 30px;
+    color: rgb(187, 124, 124);
+
+}
+#body .text2 p{
+    text-align: justify;
+    width: 450px;
+}
+.btn2{
+    position: absolute;
+    left: 10px;
+    top: 290px;
+    width: 130px;
+    height: 30px;
+    border: rgb(56, 56, 159);
+    border-radius: 30px;
+    background-color: rgb(189, 189, 235);
+    color: white;
+    transition-duration: 0.5s;  
+}
+a{
+    text-decoration: none;
+}
+
+
